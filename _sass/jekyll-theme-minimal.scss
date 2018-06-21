@@ -5,7 +5,7 @@ body {
   background-color: #fff;
   padding:50px;
   font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#67759a;
+  color:#444;
   font-weight:400;
 }
 
@@ -29,7 +29,11 @@ h1 {
 }
 
 a {
-  color:#67759a;
+  color:#444;
+}
+
+h1 > a {
+  color:#1e5fff;
 }
 
 a:hover, a:focus {
