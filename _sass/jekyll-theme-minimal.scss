@@ -4,7 +4,7 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/24px 'HelveticaNeueLTStd-Roman', sans-serif;
   color:#444;
   font-weight:400;
 }
@@ -16,6 +16,9 @@ h1, h2, h3{
 h1, h2, h3, h4, h5, h6 {
   margin:0 0 20px;
   font-family: "DINCondensed-Regular",sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 p, ul, ol, table, pre, dl {
