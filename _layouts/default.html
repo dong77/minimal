@@ -14,15 +14,10 @@
   <body>
     <div class="wrapper">
       <header>
-        {% if site.logo %}
-        <a href="loopring.org"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
-        {% endif %}
+        <a href="loopring.org"><img src="https://github.com/dong77/minimal/raw/master/assets/img/LOOPRING.jpg" alt="Logo" /></a>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
-   
-
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-     
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
